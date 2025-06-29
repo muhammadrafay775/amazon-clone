@@ -1,0 +1,450 @@
+
+
+/* navbar */
+
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar {
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navlogo {
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.d{
+    color: beige;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.p{
+    color: white;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.addicon{
+    display: flex;
+    align-items: center;
+}
+.navlocation {
+    border: 2px solid transparent;
+}
+.navlocation:hover {
+    border: 2px solid white;
+}
+.navsearch{
+    display: flex;
+    background-color: #febd68;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+#input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+.searchicon{
+   width: 45px;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   font-size: 1.2rem;
+color: black;
+}
+.navsearch:hover{
+    border: 4px solid #febd68;
+}
+span{
+    font-size: 0.7rem;
+}
+.s2{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.s3{
+    font-size: 0.90rem;
+    font-weight: 700;
+    color: beige;
+}
+.navsignin {
+border: 2px solid transparent;
+}
+.navsignin:hover {
+    border: 2px solid white;
+}
+.navorder {
+    border: 2px solid transparent;
+}
+.navorder:hover {
+    border: 2px solid white;
+}
+.navcart{
+    border: 2px solid transparent;
+}
+.navcart:hover {
+    border: 2px solid white;
+}
+#carticon {
+   font-size:30px;
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.paneloption p{
+    display: inline;
+    margin-left: 15px;
+}
+.paneloption{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: 2px solid transparent;
+}
+.paneldeal:hover{
+    border: 2px solid white;
+}
+
+/* main */
+
+.hero{
+    background-image: url(https://m.media-amazon.com/images/I/81hIlE5xocL._SX3000_.jpg);
+    height: 600px;
+    background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+.message{
+    background-color: white;
+color: black;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+ width: 80%;
+ margin-bottom: 50px;
+}
+.message a{
+            color: #007185
+  }
+
+  /* MAIN SECTION */
+
+
+.shop{
+            display: flex;
+            justify-content: space-evenly;
+      background-color: lightblue;
+}
+
+.box1{
+    border: 2px solid white;
+    height: 450px;
+    width: 380px;
+    margin-top: 20px;
+    font-weight: 1000px;
+      font-size: 30px;
+      padding-top: 10px;
+      padding-left: 10px;
+      background-color: white;
+      padding: 20px;
+      border-radius:10px ;
+}
+.box2{
+     border: 2px solid white;
+    height: 450px;
+    width: 380px;
+    margin-top: 20px;
+    font-weight: 1000px;
+      font-size: 30px;
+      padding-top: 10px;
+      padding-left: 10px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+}
+.box3{
+     border: 2px solid white;
+    height: 450px;
+    width: 380px;
+    margin-top: 20px;
+    font-weight: 1000px;
+      font-size: 30px;
+      padding-top: 10px;
+      padding-left: 10px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+}
+#i{
+    color:#007185;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.i1{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Stores-Gaming/FinalGraphics/Fuji_Gaming_store_Dashboard_card_1x_EN._SY304_CB564799420_.jpg);
+    height: 400px;
+   background-size: cover;
+   
+}
+.i2{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v3._SY304_CB573698005_.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.i3{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/61qvRagAn9L._AC_UL165_SR165,165_.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.new{
+    display: flex;
+  justify-content: space-evenly;
+      background-color: lightblue;
+}
+
+.box4{
+    border: 2px solid white;
+    height: 450px;
+    width: 380px;
+    margin-top: 20px;
+    font-weight: 1000px;
+      font-size: 30px;
+      padding-top: 10px;
+      padding-left: 10px;
+      background-color: white;
+      padding: 20px;
+      border-radius:10px ;
+}
+.box5{
+     border: 2px solid white;
+    height: 450px;
+    width: 380px;
+    margin-top: 20px;
+    font-weight: 1000px;
+      font-size: 30px;
+      padding-top: 10px;
+      padding-left: 10px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+}
+.box6{
+     border: 2px solid white;
+    height: 450px;
+    width: 380px;
+    margin-top: 20px;
+    font-weight: 1000px;
+      font-size: 30px;
+      padding-top: 10px;
+      padding-left: 10px;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+}
+
+.i4{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/I/71wKZh4lUgL._AC_UL165_SR165,165_.jpg);
+    height: 400px;
+   background-size: cover;
+   
+}
+.i5{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/G/01/AMAZON_FASHION/2025/LuxuryStores/Q1_HomepageAssets/CORE_HOMEPAGE_QuadCards_PreLovedJewelry_Rolex_186x116._SY116_CB794791765_.jpg);
+    height: 400px;
+    background-size: cover;
+}
+.i6{
+    background-image: url(https://m.media-amazon.com/images/I/816q-l9o4WL._AC_SY145_.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+/* FOOTER */
+
+.footerpanel1{
+    background-color: #37475a;
+    color: beige;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 0.85rem;
+    font-weight: 1000px;
+}
+footer{
+    margin-top: 15px;
+}
+.footerpanel2{
+    background-color: #222f3d;
+    color: beige;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.8rem;
+    margin-top: 15px;
+    font-weight: 1000px;;
+}
+.footpanel3{
+    background-color: #222f3d;
+    color: beige;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flogo{
+        background-image: url(https://www.shutterstock.com/image-vector/chattogram-bangladesh-april-24-2023-260nw-2292992631.jpg);
+          height: 50px;
+    background-size: cover;
+    width: 100px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+.footpanel4{
+    background-color: #0f1111;
+    color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.pages{
+    font-size: 1rem;
+    align-items: center;
+    padding-top: 10px;
+    display: block;
+}
+.copy{
+    font-size: 1rem;
+    display: block;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.email{
+    display: flex;
+    justify-content: space-evenly;
+}
+#email{
+    height: 45px;
+    width: 450px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 900px;
+    padding-left: 15px;
+    background-color: yellow;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+#email:hover{
+    border: 2px solid yellow;
+}
+.shop, .new {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+footer {
+    text-align: center;
+    background-color: black;
+    height: 70px;
+    width: full; /* غلط */
+    color: beige;
+    font-size: 25px;
+}
+.footerpanel2 {
+    background-color: #222f3d;
+    color: beige;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap; /* यह लाइन जोड़ें */
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.footerpanel2 ul {
+    width: 200px;
+    margin: 20px;
+}
+@media screen and (max-width: 768px) {
+  .footerpanel2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footerpanel2 ul {
+    width: 90%;
+    text-align: center;
+  }
+
+  .footpanel3 {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .email {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #email, button {
+    width: 90%;
+  }
+}
