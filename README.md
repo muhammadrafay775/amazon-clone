@@ -4,7 +4,7 @@
 You can view the live version of this project here:
 
 
-👉 [Live Website](https://darazclonerafay.netlify.app)
+👉 [Live Website](https://amazonclonerafay.netlify.app)
 <BR>
 AUTHOR
 <BR>
